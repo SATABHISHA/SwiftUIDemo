@@ -18,10 +18,11 @@
 		178A1F1027E714D5008B2F1D /* Demo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A1F0F27E714D5008B2F1D /* Demo1Tests.swift */; };
 		178A1F1A27E714D5008B2F1D /* Demo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A1F1927E714D5008B2F1D /* Demo1UITests.swift */; };
 		178A1F1C27E714D5008B2F1D /* Demo1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A1F1B27E714D5008B2F1D /* Demo1UITestsLaunchTests.swift */; };
-		178A1F2927E71A5A008B2F1D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A1F2827E71A5A008B2F1D /* Player.swift */; };
 		17C3080527FB09AC002B5B0A /* MiscTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3080427FB09AC002B5B0A /* MiscTesting.swift */; };
 		17C3080727FB0A3E002B5B0A /* MiscTesting1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3080627FB0A3E002B5B0A /* MiscTesting1.swift */; };
 		17C3CB93280513DF0053A5CD /* DashboardDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3CB92280513DF0053A5CD /* DashboardDemo.swift */; };
+		17E96F012806588D0062907F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E96F002806588D0062907F /* Player.swift */; };
+		17E96F0328067C1C0062907F /* EmployeeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E96F0228067C1C0062907F /* EmployeeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +57,11 @@
 		178A1F1527E714D5008B2F1D /* Demo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		178A1F1927E714D5008B2F1D /* Demo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1UITests.swift; sourceTree = "<group>"; };
 		178A1F1B27E714D5008B2F1D /* Demo1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		178A1F2827E71A5A008B2F1D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "../../../../Section2/NBA Player Fun/NBA Player Fun/Player.swift"; sourceTree = "<group>"; };
 		17C3080427FB09AC002B5B0A /* MiscTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscTesting.swift; sourceTree = "<group>"; };
 		17C3080627FB0A3E002B5B0A /* MiscTesting1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscTesting1.swift; sourceTree = "<group>"; };
 		17C3CB92280513DF0053A5CD /* DashboardDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDemo.swift; sourceTree = "<group>"; };
+		17E96F002806588D0062907F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		17E96F0228067C1C0062907F /* EmployeeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +112,7 @@
 		178A1EFD27E714CF008B2F1D /* Demo1 */ = {
 			isa = PBXGroup;
 			children = (
-				178A1F2827E71A5A008B2F1D /* Player.swift */,
+				17E96F002806588D0062907F /* Player.swift */,
 				178A1EFE27E714CF008B2F1D /* Demo1App.swift */,
 				178A1F0027E714CF008B2F1D /* ContentView.swift */,
 				178A1F0227E714D4008B2F1D /* Assets.xcassets */,
@@ -122,6 +124,7 @@
 				17C3080427FB09AC002B5B0A /* MiscTesting.swift */,
 				17C3080627FB0A3E002B5B0A /* MiscTesting1.swift */,
 				17C3CB92280513DF0053A5CD /* DashboardDemo.swift */,
+				17E96F0228067C1C0062907F /* EmployeeDetail.swift */,
 			);
 			path = Demo1;
 			sourceTree = "<group>";
@@ -283,14 +286,15 @@
 			files = (
 				178A1F0127E714CF008B2F1D /* ContentView.swift in Sources */,
 				17C3CB93280513DF0053A5CD /* DashboardDemo.swift in Sources */,
-				178A1F2927E71A5A008B2F1D /* Player.swift in Sources */,
 				171C6DEC27E78C6700F7927D /* Demo1UIApp.swift in Sources */,
 				17C3080727FB0A3E002B5B0A /* MiscTesting1.swift in Sources */,
 				171C6DE627E75BBC00F7927D /* StatText.swift in Sources */,
 				171C6DE827E77FFA00F7927D /* PlayerRow.swift in Sources */,
 				171C6DEA27E7861800F7927D /* PlayerList.swift in Sources */,
 				17C3080527FB09AC002B5B0A /* MiscTesting.swift in Sources */,
+				17E96F012806588D0062907F /* Player.swift in Sources */,
 				178A1EFF27E714CF008B2F1D /* Demo1App.swift in Sources */,
+				17E96F0328067C1C0062907F /* EmployeeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

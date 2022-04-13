@@ -10,22 +10,37 @@ import SwiftUI
 struct DashboardDemo: View {
     var body: some View {
         VStack{
-            ZStack{
-                GeometryReader { geometry in
+            
+                Section {
+                    Text("B Banerjee").font(.system(size: 20))
+                }
+                .padding(6.0)
+                .frame(width: UIScreen.main.bounds.width, height: 200, alignment: .top)
+                .border(Color.red, width: 1)
+                .cornerRadius(8)
+                .clipped()
+                
+
+              /*  GeometryReader { geometry in
                 Rectangle()
                     .fill(.green)
-                    .cornerRadius(8)
-                    .padding(10)
-                    .frame(width: UIScreen.main.bounds.width, height: 300, alignment: .leading).position(x: 0.5 * UIScreen.main.bounds.width, y: 0.5 * 300)
-                }
-                GeometryReader { geometry in
-               Rectangle()
-                    .fill(.gray).padding(10)
-                    .frame(width: UIScreen.main.bounds.width, height: 100, alignment: .leading)
-                    .position(x: 0.5 * UIScreen.main.bounds.width, y: 0.5 * 100)
-                }
+                    
+                    
+//                    .border(Color.red,width: 1)
+                    .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
+                    .cornerRadius(10.0)
+                    .frame(width: UIScreen.main.bounds.width, height: 200, alignment: .leading).position(x: 0.5 * UIScreen.main.bounds.width, y: 0.5 * 200)
+                    .aspectRatio(contentMode: .fit)
+                } */
                 
-            }
+                
+            
+            
+            
+//            clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous).stroke(Color.gray, lineWidth: 1))
+                
+                
+//                .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
             Spacer()
         }
     }
