@@ -11,12 +11,18 @@ struct MiscTesting: View {
     var body: some View {
 //        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         
-        Button(action: {}) {
-            HStack {
-            Text("Tap Me")
-            }
+        VStack() {
+            Button(action: {}){
+                HStack {
+                    Text("Tap Me")
+                    Image("andre").resizable().frame(width: 30, height: 30)
+                }
+                
+            }.padding().background(Color.green).cornerRadius(10).foregroundColor(.white)
+                
+            Spacer()
             
-        }.padding().background(Color.green).cornerRadius(10).foregroundColor(.white)
+        }.frame(width: UIScreen.main.bounds.width, height: .infinity, alignment: .top)
     }
 }
 
